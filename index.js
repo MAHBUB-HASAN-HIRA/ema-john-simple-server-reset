@@ -68,6 +68,9 @@ client.connect(err => {
     });
   });
   
+  app.get('/', (req, res) =>{
+      res.send('Heroku Successfully Connected');
+    });
 
 });  
 
