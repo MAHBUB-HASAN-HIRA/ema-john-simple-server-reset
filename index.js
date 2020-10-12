@@ -71,4 +71,4 @@ client.connect(err => {
 
 });  
 
-app.listen(4200, () => console.log('Listening to Port 4200'));
+app.listen(process.env.PORT || 4200);
